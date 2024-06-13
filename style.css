@@ -1,0 +1,45 @@
+body {
+    font-family: 'JetBrains Mono', monospace;
+    background-image: url(pictures/mtBackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color:lightgray;
+    position: relative; /* Ensure body is positioned relative for absolute positioning inside it */
+}
+
+#IDD {
+    color: tomato;
+}
+
+#Titleh1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold; /* Corrected from font-style: bold to font-weight */
+    color: gold;
+}
+
+#TitleD {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(170, 170, 196, 0.1);
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#eastSikkim {
+    height: 225px;
+    position: absolute; /* Use absolute positioning */
+    
+    right: 75px; /* Adjust as needed */
+    top: 150px; /* Adjust as needed */
+
+}
+
+#westSikkim{
+    height: 250px;
+    position: absolute; /* Use absolute positioning */
+    
+    right: 200px; /* Adjust as needed */
+    top: 400px; /* Adjust as needed */
+}
