@@ -1,38 +1,46 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<header>
-    <h1 id="Titleh1">
-        <div id="TitleD">sikkim</div>
-        <hr>
-    </h1>
-</header>
-<body>
-    <h2>geography</h2>
-    <br>
-    <h3>districts: </h3>
-    <pre style="font-size: larger;">  east district:</pre>
-    <pre>
-    The east district is the most populated with Gangtok being the main administrative and business centre.
-    Apart from the modern attractions of the capital town, in the east you will also find the beautiful Tsomgo 
-    Lake, the historically important Nathula pass, as well as many monasteries and temples. Gangtok is the
-    capital of Sikkim and heart of all the business hubs.
-    </pre>
-    <img id="eastSikkim" src="pictures/EastMap.png" alt="eastSikkim">
-    <br>
-    <pre style="font-size: larger;">  west district:</pre>
-    <pre>
-    West Sikkim is replete with history and religion. 
-    This is where the first Chogyal of Sikkim was consecrated at Yuksum in 1642 and this is where some 
-    of the holiest and most important monasteries of Sikkim were established, including Dubdi and Sanga 
-    Choling, the first monasteries to be built in Sikkim. West Sikkim is beautiful terrain abounding in 
-    lakes and waterfalls and also has great trekking routes. Gyalshing is the head quarter and town of 
-    the West District.
 
-    </pre>
-    <img id="westSikkim" src="pictures/west sikkim.png" alt="westSikkim">
-</body>
+<html>
+    <title>Digital collage</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        
+    </head>
+    <body>
+        <section aria-label="Newest photos">
+            <div class="carousel" data-carousel>
+                <button class="carousel-button prev" data-carousel-button="prev">&#10602;</button>
+                <button class="carousel-button next" data-carousel-button="next">&#10604;</button>
+            <ul data-slides>
+                <li class="slide" >
+                    <img src="pictures/autumn&resorts&mountain.jpg" alt="pic1"> 
+                </li>
+                
+                <li class="slide" data-active>
+                    <img src="pictures/mtBackground.jpg" alt="pic2">
+                </li>
+                
+                <li class="slide">
+                    <img src="pictures/Pic(1).jpg" alt="pic3">
+                </li>
+                <li class="slide">
+                    <img src="pictures/Pic(2).jpg "alt="pic4">
+                </li>
+                <li class="slide">
+                    <img src="pictures/Pic(3).jpg" alt="pic5">
+                </li>
+                <li class="slide">
+                    <img src="pictures/Pic(4).jpg" alt="pic6">
+                </li>
+                <li class="slide">
+                    <img src="pictures/Pic(5).jpg" alt="pic7">
+                </li>
+                
+                
+            </ul>
+            </div>
+            
+        </section>
+    </body>
 </html>
